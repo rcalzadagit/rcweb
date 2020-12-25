@@ -10,7 +10,7 @@ body {
 
 h2, h3, h4, h5, h6 {
   font-family: "Monstserrat-Bold";
- 
+
 }
 
 h4 {
@@ -95,7 +95,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;  
+  position: relative;
 
 
 /* Original */
@@ -234,7 +234,7 @@ h1 {
 }
 
 /* .portfolio-img{
-  width: 
+  width:
 } */
 /* .container{
   display: flex;
@@ -248,6 +248,5 @@ h1 {
   width: 250px;
   height: 250px;
   padding: 15%
-  
-} */
 
+} */
