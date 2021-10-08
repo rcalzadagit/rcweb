@@ -335,7 +335,7 @@ When using Controls, href must be same as Id -->
 <!-- <a href="https://www.linkedin.com/in/raulcalzada/" target="_blank"><i class="social-icons fab fa-linkedin"></i></a>-->
 <!-- <i class="social-icons fab fa-instagram-square"></i> -->
 <a href="mailto:rcalzadany@gmail.com"><i class="social-icons fas fa-envelope-square"></i></a>
-    <p>© Copyright 2020- <script type="text/javascript">
+    <p>© Copyright 2020-<script type="text/javascript">
       document.write(new Date().getFullYear());
     </script></p>
   <div>
@@ -345,6 +345,14 @@ When using Controls, href must be same as Id -->
 
   </footer>
 
+<!--https://github.com/cferdinandi/smooth-scroll-->
+<!--External JS File-->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+<!--JS Script-->
+<script>
+	const scroll = new SmoothScroll('.navbar a[href*="#"]');
+</script>
 </body>
 
 </html>

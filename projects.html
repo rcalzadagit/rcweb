@@ -124,11 +124,14 @@
  <!-- Footer -->
 
  <footer id="footer">
-  <!-- <div class="container-fluid"> -->
-  </br>
-</br>
-</br>
-    <p>© Copyright <script type="text/javascript">
+  <div class="container-fluid">
+    <h3>Contact</h3>
+<a href="https://www.facebook.com/raul.calzada.927" target="_blank"><i class="social-icons fab fa-facebook-square"></i></a>
+<a href="https://twitter.com/RaulCalzada" target="_blank"><i class="social-icons fab fa-twitter-square"></i></a>
+<!-- <a href="https://www.linkedin.com/in/raulcalzada/" target="_blank"><i class="social-icons fab fa-linkedin"></i></a>-->
+<!-- <i class="social-icons fab fa-instagram-square"></i> -->
+<a href="mailto:rcalzadany@gmail.com"><i class="social-icons fas fa-envelope-square"></i></a>
+<p>© Copyright 2020-<script type="text/javascript">
       document.write(new Date().getFullYear());
     </script></p>
   <div>
@@ -139,7 +142,14 @@
   </footer>
       </section>
     
+<!--https://github.com/cferdinandi/smooth-scroll-->
+<!--External JS File-->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
+<!--JS Script-->
+<script>
+	const scroll = new SmoothScroll('.navbar a[href*="#"]');
+</script>
 </body>
 
 </html>
