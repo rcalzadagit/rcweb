@@ -235,6 +235,10 @@ h1 {
   padding: 3% 2%;
 }
 
+.row {
+  justify-content: center;
+}
+
 /* .portfolio-img{
   width:
 } */
