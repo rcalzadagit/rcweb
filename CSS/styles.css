@@ -83,6 +83,36 @@ h1 {
 
 .social-icons {
   margin: 20px 10px;
+  size: 4rem;
+}
+
+#footer form {
+  max-width: 520px;
+  margin: 0 auto 30px;
+  text-align: left;
+}
+
+#footer form label {
+  display: block;
+  margin: 12px 0 4px;
+}
+
+#footer form input,
+#footer form select,
+#footer form button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#footer form input,
+#footer form select {
+  min-height: 40px;
+  padding: 8px;
+}
+
+#footer form button {
+  margin-top: 18px;
 }
 
 @media (max-width: 1028px) {}
@@ -160,6 +190,31 @@ h1 {
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #ff5722
+}
+
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  background-color: #3a3636;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Features */
