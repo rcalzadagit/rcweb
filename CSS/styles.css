@@ -50,7 +50,7 @@ h1 {
 
 .my-menu {
   background-color: #3a3636;
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -83,13 +83,21 @@ h1 {
 
 .social-icons {
   margin: 20px 10px;
-  size: 4rem;
+  
 }
 
 #footer form {
   max-width: 520px;
   margin: 0 auto 30px;
   text-align: left;
+}
+
+.form-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 #footer form label {
@@ -266,7 +274,6 @@ h1 {
 
 #press {
   background-color: #00bcd4;
-
   padding-bottom: 3%;
 }
 
