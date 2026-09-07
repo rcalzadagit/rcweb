@@ -50,7 +50,9 @@ h1 {
 
 .my-menu {
   background-color: #3a3636;
- 
+  color: #ffffff;
+  font-family: "Montserrat-Light";
+  font-size: 1.5rem;
 }
 
 
