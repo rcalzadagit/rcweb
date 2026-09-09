@@ -85,7 +85,6 @@ h1 {
 
 .social-icons {
 margin: 20px 10px;
- 
 }
 
 #footer form {
@@ -301,6 +300,17 @@ margin: 20px 10px;
 
 .row {
   justify-content: center;
+}
+
+.main-page {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+.main-page:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #ff5722;
 }
 
 /* .portfolio-img{
