@@ -1,5 +1,3 @@
-
-
 // Back to Top Button appears after Section Title.    //
 
 window.addEventListener("scroll", function(event) {
