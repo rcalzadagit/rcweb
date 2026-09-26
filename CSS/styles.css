@@ -129,8 +129,8 @@ margin: 20px 10px;
 #footer form button {
   margin-top: 18px;
 }
-/* Original @media styles for responsiveness was at 1028px */
-@media (max-width: 600px) {}
+/* Original @media styles for responsiveness is at 1028px */
+@media (max-width: 1028px {}
 
 
   /* Title section */
