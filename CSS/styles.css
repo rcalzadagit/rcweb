@@ -56,7 +56,6 @@ h1 {
 }
 
 
-
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -130,8 +129,8 @@ margin: 20px 10px;
 #footer form button {
   margin-top: 18px;
 }
-
-@media (max-width: 1028px) {}
+/* Original @media styles for responsiveness was at 1028px */
+@media (max-width: 600px) {}
 
 
   /* Title section */
@@ -185,7 +184,7 @@ margin: 20px 10px;
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
-  
+
 }
 
 .navbar-brand {
