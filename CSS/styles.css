@@ -130,9 +130,14 @@ margin: 20px 10px;
   margin-top: 18px;
 }
 /* Original @media styles for responsiveness is at 1028px */
-@media (max-width: 1028px {}
+@media (max-width: 1028px) {}
 
-
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero-container {
+    height: 70vh;
+  }
+}
   /* Title section */
 
 #title {
@@ -145,6 +150,7 @@ margin: 20px 10px;
 
 
 /* Original */
+
   background-color: #00bcd4;
   color: #fff;
   text-align: left;
