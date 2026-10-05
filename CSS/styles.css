@@ -49,11 +49,17 @@ h1 {
 
 
 .my-menu {
-  background-color: #131212;
+  background-color: #282c2c;
   color: #ffffff;
   font-family: "Montserrat-Light";
   font-size: 1.5rem;
 }
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
 
 
 .section-heading {
@@ -68,10 +74,16 @@ h1 {
   padding: 2% 20%;
 }
 
+.page-item{
+  padding-bottom: 100px;
+}
+
 /* CTA Section */
 #cta {
   background-color: #00bcd4;
   color: #fff;
+padding-top: 50px;
+padding-bottom: 50px;
 
 }
 
@@ -133,11 +145,9 @@ margin: 20px 10px;
 @media (max-width: 1028px) {}
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
-  .hero-container {
-    height: 70vh;
-  }
-}
+@media (max-width: 480px) {}
+
+
   /* Title section */
 
 #title {
@@ -148,10 +158,10 @@ margin: 20px 10px;
   background-size: cover;
   position: relative;
 
-
 /* Original */
 
-  background-color: #00bcd4;
+ /* background-color: #00bcd4; */
+  background-color: #081d5e;
   color: #fff;
   text-align: left;
 }
@@ -179,7 +189,7 @@ margin: 20px 10px;
 
 /* Title Image */
 .title-image {
-  border-radius: 10%;
+  border-radius: 5%;
   width: 55%;
   border-style: double;
   /* transform: rotate(0deg); */
@@ -187,16 +197,33 @@ margin: 20px 10px;
   /* Because position: is absolute I can move to the right by % */
   /* right: 45%; */
 }
+
+
+
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
+}
 
+.navbar-toggler{
+  border-color: #3de909;
+}
+
+
+.navbar-nav{
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  color: #fff;
+ 
+}
+.navbar-brand:focus, .navbar-brand:hover {
+  color: #fff;
 }
 
 .nav-item {
@@ -205,7 +232,7 @@ margin: 20px 10px;
 
 .nav-link {
   font-size: 1.5rem;
-  color: rgb(255 255 255);
+  color: rgb(255, 255, 255);
   font-family: "Montseratt-Light";
 }
 .nav-link:hover {
@@ -314,16 +341,7 @@ margin: 20px 10px;
   justify-content: center;
 }
 
-.main-page {
-  font-size: 1.5rem;
-  font-family: "Montserrat-Light";
-}
-.main-page:hover {
-  color: #ffffff;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-decoration-color: #ff5722;
-}
+
 
 /* .portfolio-img{
   width:
