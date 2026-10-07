@@ -86,6 +86,11 @@ padding-top: 50px;
 padding-bottom: 50px;
 
 }
+.cta-link:hover {
+  text-decoration: underline;
+
+  text-decoration-color: #ff5722;
+}
 
 #footer {
   background-color: #a9dbf5;
@@ -220,7 +225,7 @@ margin: 20px 10px;
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
- 
+ margin-right: 144px;
 }
 .navbar-brand:focus, .navbar-brand:hover {
   color: #fff;
@@ -232,7 +237,7 @@ margin: 20px 10px;
 
 .nav-link {
   font-size: 1.5rem;
-  color: rgb(255, 255, 255);
+ color: rgb(255, 255, 255);
   font-family: "Montseratt-Light";
 }
 .nav-link:hover {
