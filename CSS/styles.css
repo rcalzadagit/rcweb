@@ -147,10 +147,18 @@ margin: 20px 10px;
   margin-top: 18px;
 }
 /* Original @media styles for responsiveness is at 1028px */
+/* CCS for screens below or equal to 1028px wide */
 @media (max-width: 1028px) {}
+
+/* CCS for screens below or equal to 600px wide */
+@media (max-width: 600px) {}
+
 
 /* Mobile Responsiveness */
 @media (max-width: 480px) {}
+/* CCS for screens below or equal to 480px wide */
+
+
 
 
   /* Title section */
@@ -173,6 +181,12 @@ margin: 20px 10px;
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+}
+
+.press-image:hover {
+  transition: 1s ease-out;
+transform: scale(2.5, 2.5);
+
 }
 
 /* Download Buttons */
@@ -202,7 +216,13 @@ margin: 20px 10px;
   /* Because position: is absolute I can move to the right by % */
   /* right: 45%; */
 }
-
+/*
+.title-image:hover {
+  transform: scale3d(1.1, 1.1, 1 );
+  transition: all 1s ease-out;
+  border-radius: 10px;
+}
+*/
 
 
 /* Navigation Bar */
@@ -319,12 +339,14 @@ margin: 20px 10px;
 
 #press {
   background-color: #00bcd4;
- /* padding-bottom: 3%; */
+ padding-bottom: 4%;
+
 }
 
 .press-image {
   width: 10%;
   margin: 20px 20px 50px;
+
 }
 
 /* Pricing section */
