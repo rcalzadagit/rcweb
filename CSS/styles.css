@@ -224,6 +224,36 @@ transform: scale(2.5, 2.5);
 }
 */
 
+/* Sliding image css and javascript */
+#sliding-image {
+  /* Starting state: hidden off-screen to the left and fully transparent */
+  transform: translateX(-100px);
+  opacity: 0;
+  
+  /* Smooth transition for position and opacity over 0.8 seconds */
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+/* This class will be added by JavaScript to trigger the slide */
+#sliding-image.slide-in {
+  /* Final state: normal position and fully visible */
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Sliding headings css and javascript */
+#main-heading, #sub-heading {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+#main-heading.slide-in, #sub-heading.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
 
 /* Navigation Bar */
 .navbar {
