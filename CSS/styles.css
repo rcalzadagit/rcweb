@@ -37,6 +37,9 @@ h1 {
   color: #fff;
 }
 
+.raul2 {
+  color: #fff;
+}
 
 
 /* Hedings was on the h1*/
@@ -184,23 +187,47 @@ p {
 
   /* Title section */
 
-#title {
+#title2 {
   background-image: url("../images/Office-Bg.jpg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative; 
+}
+
+
+/* Added by me 10-24-2026 */
+
+.hero {
   position: relative;
+  isolation: isolate;
+  background: url("../images/scenic-mountain-2.jpg") center / cover no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: url("../images/Office-Bg.jpg") center / cover no-repeat;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.hero.show-second::before {
+  opacity: 1;
+}
 
 
 
 /* Original */
 
- /* background-color: #00bcd4; */
+ /* background-color: #00bcd4;
   background-color: #081d5e;
   color: #fff;
   text-align: left;
-}
+*/
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -268,12 +295,14 @@ transform: scale(2.5, 2.5);
 #main-heading, #sub-heading {
   transform: translateX(-100px);
   opacity: 0;
+  color: #fff;
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
 }
 
 #main-heading.slide-in, #sub-heading.slide-in {
   transform: translateX(0);
   opacity: 1;
+  color: #fff;
 }
 
 
