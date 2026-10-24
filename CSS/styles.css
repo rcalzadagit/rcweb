@@ -16,6 +16,7 @@ h2, h3, h4, h5, h6 {
 
 h4 {
   text-align: left;
+  color: #ffffff;
 }
 
 p {
@@ -24,7 +25,7 @@ p {
 }
 
 .card-body-text {
-  color: #868383;
+  color: #4e4d4d;
   font-size: 20px;
 
 }
@@ -34,13 +35,27 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: normal;
-  color: #fff;
+  color: #ffffff;
 }
 
-.raul2 {
-  color: #fff;
+.myserv {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: rgba(64, 66, 66, 0.466);
+  -webkit-background-composite: rgba(8, 84, 94, 0.315);
 }
 
+.service {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 25px;
+}
 
 /* Hedings was on the h1*/
 /* .big-heading {
@@ -72,6 +87,18 @@ h1 {
   margin-top: 25px;
   padding-top: 15px;
 }
+
+.section-heading2 {
+  font-size: 3rem;
+  line-height: 1.5;
+/* Added by me 11-26-2020 */
+  margin-top: 25px;
+  padding-top: 5px 10px 15px 10px;
+  color: #ffffff;
+  border: 2px solid #f8f5f5;
+  border-radius: 10px;
+}
+
 
 .container-fluid {
   padding: 2% 20%;
@@ -219,7 +246,13 @@ p {
   opacity: 1;
 }
 
-
+#services {
+  background-image: url("../images/scenic-mountain-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* Original */
 
@@ -395,6 +428,12 @@ transform: scale(2.5, 2.5);
   text-align: center;
 }
 
+.section-heading p {
+  padding: 2% 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
 .icon {
   color: #00bcd4;
   margin-bottom: 1rem;
@@ -414,7 +453,7 @@ transform: scale(2.5, 2.5);
 
 .testimonial-image {
   width: 15%;
-  border-radius: 15px;
+  border-radius: 10px;
   border-style: double;
   margin: 20px;
 }
