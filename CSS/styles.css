@@ -155,8 +155,26 @@ margin: 20px 10px;
 
 
 /* Mobile Responsiveness */
-@media (max-width: 480px) {}
 /* CCS for screens below or equal to 480px wide */
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 3.5rem;
+  } 
+
+ h2, h3 {
+    font-size: 2.5rem;
+  } 
+p {
+    font-size: 0.875rem;
+  }
+
+testimonial-image {
+    width: 30%;
+  }
+
+}
+
 
 
 
@@ -361,8 +379,8 @@ transform: scale(2.5, 2.5);
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 25px;
+  width: 15%;
+  border-radius: 15px;
   border-style: double;
   margin: 20px;
 }
