@@ -1,3 +1,12 @@
+// background image changes after x seconds.    //
+
+
+const hero = document.querySelector(".hero");
+
+setTimeout(() => {
+  hero.classList.add("show-second");
+}, 2000);
+
 
 
 // Back to Top Button appears after Section Title.    //
@@ -32,5 +41,5 @@ window.addEventListener("load", function() {
   // Subheading slides in a bit later, after 5 seconds
   setTimeout(function() {
     document.getElementById("sub-heading").classList.add("slide-in");
-  }, 4500); 
+  }, 5000); 
 });
