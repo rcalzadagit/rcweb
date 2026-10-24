@@ -45,6 +45,7 @@ h1 {
   padding-bottom: 30px;
   padding-right: 30px;
   border-radius: 10px;
+  margin-bottom: 50px;
   background-color: rgba(64, 66, 66, 0.466);
   -webkit-background-composite: rgba(8, 84, 94, 0.315);
 }
