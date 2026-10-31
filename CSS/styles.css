@@ -42,6 +42,13 @@ h1 {
 color: #ffffff;
 }
 
+.spsa{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
 .myserv {
   text-align: left;
   padding-top: 30px;
