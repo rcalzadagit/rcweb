@@ -192,10 +192,7 @@ margin: 20px 10px;
 @media (width < 767px) {
   /* Mobile styles */
 
-body {
-    font-size: 18px;
-    padding: 0px;
-  }
+
 
   .container {
     width: 100%;
