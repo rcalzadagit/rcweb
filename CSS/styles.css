@@ -184,10 +184,23 @@ margin: 20px 10px;
 /* CCS for screens below or equal to 600px wide */
 @media (max-width: 600px) {}
 
+/* Target devices smaller than 767px wide */
+@media (width < 767px) {
+  /* Mobile styles */
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+}
 
 /* Mobile Responsiveness */
 /* CCS for screens below or equal to 480px wide */
 @media (max-width: 480px) {
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
 
   h1 {
     font-size: 3.5rem;
