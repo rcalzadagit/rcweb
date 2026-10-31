@@ -191,6 +191,12 @@ margin: 20px 10px;
 /* Target devices smaller than 767px wide */
 @media (width < 767px) {
   /* Mobile styles */
+
+body {
+    font-size: 18px;
+    padding: 0px;
+  }
+
   .nav-menu {
     display: none; /* Hide standard navigation for a hamburger menu */
   }
