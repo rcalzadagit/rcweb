@@ -197,6 +197,12 @@ body {
     padding: 0px;
   }
 
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+
   .nav-menu {
     display: none; /* Hide standard navigation for a hamburger menu */
   }
