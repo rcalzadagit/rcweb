@@ -188,27 +188,36 @@ margin: 20px 10px;
 #footer form button {
   margin-top: 18px;
 }
+
+
 /* Original @media styles for responsiveness is at 1028px */
 /* CCS for screens below or equal to 1028px wide */
 @media (max-width: 1028px) {}
 
 /* CCS for screens below or equal to 600px wide */
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+}
 
 /* Target devices smaller than 767px wide */
 @media (width < 767px) {
   /* Mobile styles */
-
-
 
   .container {
     width: 100%;
     flex-direction: column;
   }
 
-
   .nav-menu {
     display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+    #services {
+    background-attachment: scroll;
   }
 
 }
@@ -221,6 +230,11 @@ margin: 20px 10px;
     width: 100%;
     flex-direction: column;
   }
+
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
 
   h1 {
     font-size: 3.5rem;
@@ -377,6 +391,7 @@ transform: scale(2.5, 2.5);
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
+
 }
 
 .navbar-toggler{
