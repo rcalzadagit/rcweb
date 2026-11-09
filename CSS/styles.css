@@ -192,7 +192,7 @@ margin: 20px 10px;
 
 /* Original @media styles for responsiveness is at 1028px */
 /* CCS for screens below or equal to 1028px wide */
-@media (max-width: 1028px) {}
+/* @media (max-width: 1028px) {} */
 
 /* CCS for screens below or equal to 600px wide */
 @media (max-width: 600px) {
