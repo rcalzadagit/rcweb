@@ -203,6 +203,12 @@ margin: 20px 10px;
 
 }
 
+@media (max-width: 767px) {
+  #services {
+    background-attachment: scroll;
+  }
+}
+
 /* Target devices smaller than 767px wide */
 @media (width < 767px) {
   /* Mobile styles */
@@ -216,9 +222,6 @@ margin: 20px 10px;
     display: none; /* Hide standard navigation for a hamburger menu */
   }
 
-    #services {
-    background-attachment: scroll;
-  }
 
 }
 
