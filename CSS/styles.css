@@ -339,6 +339,12 @@ transform: scale(2.5, 2.5);
 
 }
 
+.fsm-border {
+  border: 2px solid #131212;
+  border-radius: 5px;
+
+}
+
 /* Title Image */
 .title-image {
   border-radius: 5%;
